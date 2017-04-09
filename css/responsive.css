@@ -1,0 +1,66 @@
+
+
+@media screen and (min-width: 220px) {
+	.header {
+		display: flex;
+		
+	}
+	.header .col-md-6 {
+		width: 50%;
+	}
+	#menu {
+		float: right;
+	}
+}
+@media screen and (max-width: 480px) {
+	.about-contact {
+		display: none;
+	}
+	.projects .project {
+		width: 100%;
+	}
+
+	img {
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (min-width: 481px) and (max-width: 750px) {
+	.about-contact {
+		display: block;
+		width: 100%;
+	}
+
+	.projects .project {
+		width: 100%;
+		
+	}
+
+	img {
+		max-height: 100%;
+		max-width: 100%;
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (min-width: 750px) {
+	.projects .group {
+		display: flex;
+	}
+	.projects .project {
+		width: 50%;
+	}
+
+	img {
+		float: left;
+	}
+}
+
+@media screen and (min-width: 1080px) {
+	.container {
+		width: 1080px;
+		margin: 0 auto;
+	}
+}
