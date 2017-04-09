@@ -46,6 +46,12 @@
 }
 
 @media screen and (min-width: 750px) {
+	.project-info {
+		display: none;
+	}
+	.projects  .row {
+		padding: 15px;
+	}
 	.projects .group {
 		display: flex;
 	}
