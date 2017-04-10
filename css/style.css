@@ -6,7 +6,6 @@
 	font-weight: 300;
 	line-height: 2em;
 	font-size: 15px;
-
 }
 
 
@@ -36,7 +35,7 @@ img {
 	max-width: 100%;
 }
 
-h1:after, h2:after, h3:after, h4:after, h5:after, h6:after,  h3:after {
+h1:after, h2:after, h3:after, h4:after, h5:after, h6:after,  {
     width: 30px;
     height: 1px;
     background: #dcdcdc;
@@ -45,7 +44,7 @@ h1:after, h2:after, h3:after, h4:after, h5:after, h6:after,  h3:after {
     margin-top: 15px;
 }
 
-h1, h2, h3, h4, h5, h6 header {
+h1, h2, h3, h4, h5, h6 header  {
 	font-weight: 100;
 	color: #777777;
 }
