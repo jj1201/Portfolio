@@ -13,9 +13,9 @@
 	}
 }
 @media screen and (max-width: 480px) {
-	.about-contact {
+	/*.about-contact {
 		display: none;
-	}
+	}*/
 	.projects .project {
 		width: 100%;
 	}
@@ -46,9 +46,9 @@
 }
 
 @media screen and (min-width: 750px) {
-	.project-info {
+/*	.project-info {
 		display: none;
-	}
+	}*/
 	.projects  .row {
 		padding: 15px;
 	}
