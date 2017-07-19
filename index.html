@@ -3,108 +3,77 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Jiajia Portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Jenny's portfolio</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/responsive.css">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
-	<script type="text/javascript">
-		function myFunction(x) {
-    		x.classList.toggle("change");
-}
-	</script>
+	<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+	<link rel="manifest" href="favicons/manifest.json">
+	<link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
 </head>
 <body>
 	<div class="container">
-		<header class="row header">
+		<div class="row">
 			<div class="col-md-6">
-				<h1>Jiajia Chen</h1>
+				<img class="title-logo" id="logo" src="images/logo.png" alt="Jenny's logo">
 			</div>
-			<div class="col-md-6" >
-				<div id="menu" onclick="myFunction(this)">
-				  <div class="bar1"></div>
-				  <div class="bar2"></div>
-				  <div class="bar3"></div>
-				</div>
-				
+			<div class="col-md-6 text-right text-uppercase">
+				<h1 class="text-thin title-super">Jenny Chen</h1>
+				<h4>Software Developer</h4>
 			</div>
-		</header>
-		<section id="intro" class="row">
-			<div class="about-info col-md-6">
-				<header>
-					<h3>About</h3>
-				</header>
-				<p class="text-justify">
-					Jiajia Chen recently graduated with a M.S. in computer sicence. She is passionate about front end design and also has extensive experience in application development, algorithm design, and database programming.
-				</p>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<hr>
 			</div>
-			<div class="about-contact col-md-6">
-				<header>
-					<h3>Contact</h3>
-				</header>
-				<div class="left col-md-3"> 
-					<p>
-						Email:
-						<br>
-						<a href="mailto:jiajiachen1993@gmail.com">jiajiachen1993@gmail.com</a>
-					</p>
-					<p>
-						Phone: <br> 858-729-4621
-					</p>
-				</div>
-				<div class="right col-md-3">
-					<p> Github: <br> 
-						<a target="_blank" href="https://github.com/jj1201">jj1201</a>
-					</p>
-					<p> LinkedIn: <br> 
-						<a target="_blank"href="https://www.linkedin.com/in/jiajia-chen-6a5717106/">@Jiajia Chen</a>
-					</p>
-					
-				</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<img id="bridge" class="img-responsive" src="images/bridge3.jpeg" alt="Golden Gate bridge">
 			</div>
-		
-			
-		</section>
-		<section class="projects">
-			<h3>Featured Work</h3>
-			
-			<div class="row">
-				<div class="group col-md-12">
-					<div class="col-md-6 project">
-						<img class="img-rounded img-responsive" src="http://placekitten.com/g/600/400" alt="Online Resume">
-						<div class="project-info">
-							<h4> Project 1</h4>
-							<p> project 1 description....</p>
-						</div>
-					</div>
-					<div class="col-md-6 project">
-						<img class="img-rounded img-responsive" src="http://placekitten.com/g/600/400" alt="Classic Arcade Game Clone">
-						<div class="project-info">
-							<h4> Project 2</h4>
-							<p> project 2 description....</p>
-						</div>
-					</div>
-				</div>
-				<div class="group col-md-12">
-					<div class="col-md-6 project">
-						<img class="img-rounded img-responsive" src="http://placekitten.com/g/600/400" alt=" Neighborhood Map">
-						<div class="project-info">
-							<h4> Project 3</h4>
-							<p> project 3 description....</p>
-						</div>
-					</div>
-					<div class="col-md-6 project">
-						<img class="img-rounded img-responsive" src="http://placekitten.com/g/600/400" alt="Website Optimization">
-						<div class="project-info">
-							<h4> Project 4</h4>
-							<p> project 4 description....</p>
-						</div>
-					</div>
-				</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<h2 class="text-muted">Features Work</h2>
 			</div>
-			
-		</section>
+		</div>
+		<div class="row text-center">
+			<div class="col-md-4 ">
+				<img class="img-responsive " src="images/project1.jpg" alt="National Park Map">
+				<h3 class="text-uppercase">National Park Map</h3>
+				<a href="https://github.com/jj1201/national-park-map">https://github.com/jj1201/national-park-map</a>
+			</div>
+			<div class="col-md-4 ">
+				<img class="img-responsive " src="images/project2.jpg" alt="Bug Invasion">
+				<h3 class="text-uppercase">Bug Invasion</h3>
+				<a href="https://github.com/jj1201/Bug-Invasion">https://github.com/jj1201/Bug-Invasion</a>
+			</div>
+			<div class="col-md-4 ">
+				<img class="img-responsive" src="images/project3.jpg" alt="Online Resume">
+				<h3 class="text-uppercase">Online Resume</h3>
+				<a href="https://github.com/jj1201/Online-Resume">https://github.com/jj1201/Online-Resume</a>
+			</div>
+		</div>
+		<div class="row text-center">
+			<div class="col-md-4 ">
+				<img class="img-responsive " src="images/project4.jpg" alt="Website optimization">
+				<h3 class="text-uppercase">Website optimization</h3>
+				<a href="https://github.com/jj1201/Frontend-Project-Website-Optimization">https://github.com/jj1201/Frontend-Project-Website-Optimization</a>
+			</div>
+			<div class="col-md-4 ">
+				<img class="img-responsive " src="images/project5.jpg" alt="Feedreader Test">
+				<h3 class="text-uppercase">Feedreader Test</h3>
+				<a href="https://github.com/jj1201/Feedreader-Test">https://github.com/jj1201/Feedreader-Test</a>
+			</div>
+			<div class="col-md-4 ">
+				<img class="img-responsive" src="images/project6.jpg" alt="Block Game">
+				<h3 class="text-uppercase">Block Game</h3>
+				<a href="https://github.com/jj1201/Block-Game">https://github.com/jj1201/Block-Game</a>
+			</div>
+		</div>
 	</div>
 	
 </body>

@@ -1,96 +1,41 @@
-
-
-* {
-	font-family: 'Open Sans', sans-serif;
-	color: #9d9d9d;
+body {
+	font-family: 'Lato', sans-serif;
+	color: #676858;
 	font-weight: 300;
-	line-height: 2em;
-	font-size: 15px;
 }
 
-
-.project {
-	margin-bottom: 5%;
+hr {
+	background-color: #eee;
+    border: 0 none;
+    color: #eee;
+    height: 3px;
 }
-
-#intro{
-	margin-bottom: 50px;
+.text-muted {
+	color: #BCBBBB;
 }
-.about-contact .left {
-	width: 45%;
-	float: left;
-	margin-right: 10%;
-}
-
-.about-contact .right {
-	width: 45%;
-	float: right;
-}
-
-header {
-	padding: 30px;
-}
-
-img {
-	max-width: 100%;
-}
-
-h1:after, h2:after, h3:after, h4:after, h5:after, h6:after,  {
-    width: 30px;
-    height: 1px;
-    background: #dcdcdc;
-    content: " ";
-    display: block;
-    margin-top: 15px;
-}
-
-h1, h2, h3, h4, h5, h6 header  {
+.text-thin {
 	font-weight: 100;
-	color: #777777;
+}
+#logo {
+	width: 100px;
 }
 
+#bridge {
+	width: 100%;
+}
 a {
 	text-decoration: none;
-}
-.about-contact a {
-	cursor: pointer;
-	color: #9d9d9d;
+	color: inherit;
 }
 
-p {
-	display: block;
-
+.col-md-4 {
+	margin-bottom: 10px;
 }
 
-
-
-#menu {
-    display: inline-block;
-    cursor: pointer;
+.title-super {
+	font-size: 60px;
 }
 
-.bar1, .bar2, .bar3 {
-    width: 35px;
-    height: 1px;
-    background-color: #9d9d9d;
-    margin: 6px 0;
-    transition: 0.4s;
+.title-logo {
+	margin-top: 20px;
 }
-
-/* Rotate first bar */
-.change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
-    transform: rotate(-45deg) translate(-9px, 6px) ;
-}
-
-/* Fade out the second bar */
-.change .bar2 {
-    opacity: 0;
-}
-
-/* Rotate last bar */
-.change .bar3 {
-    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
-    transform: rotate(45deg) translate(-8px, -8px) ;
-
-
