@@ -26,6 +26,7 @@ hr {
 a {
 	text-decoration: none;
 	color: inherit;
+	target: _blank;
 }
 
 .col-md-4 {
